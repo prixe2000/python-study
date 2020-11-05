@@ -1,6 +1,6 @@
 import os, usecsv, re
 total=usecsv.opencsv('popSeoul.csv')
-i=total[4:10]
+i=total[2]
 k=[]
 for j in i:
     if re.search('\d',j):
