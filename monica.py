@@ -5,7 +5,6 @@ script=f.read()
 line=re.findall(r'Monica:.+',script)
 f.close()
 
-
 os.chdir(r'C:\Beom Cording\study')
 f=codecs.open('Monica.txt','w',encoding='utf-8')
 Monica=""
