@@ -1,4 +1,5 @@
 import numpy as np, usecsv
 quest=np.array(usecsv.switch(usecsv.opencsv('quest.csv')))
-print(quest)
+quest[quest>5]=5
+usecsv.writecsv('resultcsv.csv',quest)
 
